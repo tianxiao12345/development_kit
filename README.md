@@ -8,3 +8,7 @@ collect control with types:Rotation,Shaking,Parallax,Pop tips
 //2:RotationButton
 
 //3:go on ...
+
+
+tips:
+use third party by masinory & autosize
