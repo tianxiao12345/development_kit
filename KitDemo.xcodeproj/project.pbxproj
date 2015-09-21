@@ -16,6 +16,8 @@
 		1822C8AE1BAD94D6003778AE /* KitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822C8AD1BAD94D6003778AE /* KitDemoTests.m */; };
 		1822C8E71BAD9C05003778AE /* MJRefreshController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822C8E61BAD9C05003778AE /* MJRefreshController.m */; };
 		479B30A8064A908502A2F813 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B30FB93DDABB3AA5B15B2C32 /* libPods.a */; };
+		851123331BB066DE0050C29A /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 851123321BB066DE0050C29A /* UIButton+Block.m */; };
+		851123361BB066EB0050C29A /* ButtonBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 851123351BB066EB0050C29A /* ButtonBlockViewController.m */; };
 		85469B031BAEE66D0089EBC9 /* RotationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 85469B001BAEE66D0089EBC9 /* RotationButton.m */; };
 		85469B041BAEE66D0089EBC9 /* RotationCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 85469B021BAEE66D0089EBC9 /* RotationCircle.m */; };
 		85469B071BAEE6900089EBC9 /* RotationBtnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85469B061BAEE6900089EBC9 /* RotationBtnViewController.m */; };
@@ -49,6 +51,10 @@
 		1822C8E51BAD9C05003778AE /* MJRefreshController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshController.h; sourceTree = "<group>"; };
 		1822C8E61BAD9C05003778AE /* MJRefreshController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshController.m; sourceTree = "<group>"; };
 		1822C8E81BAD9C34003778AE /* Kit.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kit.pch; sourceTree = "<group>"; };
+		851123311BB066DE0050C29A /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		851123321BB066DE0050C29A /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		851123341BB066EB0050C29A /* ButtonBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonBlockViewController.h; sourceTree = "<group>"; };
+		851123351BB066EB0050C29A /* ButtonBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonBlockViewController.m; sourceTree = "<group>"; };
 		85469AFF1BAEE66D0089EBC9 /* RotationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationButton.h; sourceTree = "<group>"; };
 		85469B001BAEE66D0089EBC9 /* RotationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationButton.m; sourceTree = "<group>"; };
 		85469B011BAEE66D0089EBC9 /* RotationCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationCircle.h; sourceTree = "<group>"; };
@@ -112,6 +118,8 @@
 				1822C8E61BAD9C05003778AE /* MJRefreshController.m */,
 				85469B051BAEE6900089EBC9 /* RotationBtnViewController.h */,
 				85469B061BAEE6900089EBC9 /* RotationBtnViewController.m */,
+				851123341BB066EB0050C29A /* ButtonBlockViewController.h */,
+				851123351BB066EB0050C29A /* ButtonBlockViewController.m */,
 				1822C89B1BAD94D6003778AE /* Main.storyboard */,
 				1822C89E1BAD94D6003778AE /* Images.xcassets */,
 				1822C8A01BAD94D6003778AE /* LaunchScreen.xib */,
@@ -151,6 +159,7 @@
 		1822C8B91BAD9B2A003778AE /* Kits */ = {
 			isa = PBXGroup;
 			children = (
+				851123301BB066DE0050C29A /* ButtonBlock */,
 				85469AFE1BAEE66D0089EBC9 /* RotationButton */,
 			);
 			path = Kits;
@@ -163,6 +172,15 @@
 				FC615CFA3FE258B71C6BCC91 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		851123301BB066DE0050C29A /* ButtonBlock */ = {
+			isa = PBXGroup;
+			children = (
+				851123311BB066DE0050C29A /* UIButton+Block.h */,
+				851123321BB066DE0050C29A /* UIButton+Block.m */,
+			);
+			path = ButtonBlock;
 			sourceTree = "<group>";
 		};
 		85469AFE1BAEE66D0089EBC9 /* RotationButton */ = {
@@ -325,8 +343,10 @@
 				1822C89A1BAD94D6003778AE /* ViewController.m in Sources */,
 				1822C8971BAD94D6003778AE /* AppDelegate.m in Sources */,
 				85469B031BAEE66D0089EBC9 /* RotationButton.m in Sources */,
+				851123361BB066EB0050C29A /* ButtonBlockViewController.m in Sources */,
 				85469B041BAEE66D0089EBC9 /* RotationCircle.m in Sources */,
 				1822C8941BAD94D6003778AE /* main.m in Sources */,
+				851123331BB066DE0050C29A /* UIButton+Block.m in Sources */,
 				1822C8E71BAD9C05003778AE /* MJRefreshController.m in Sources */,
 				85469B0A1BAEE9330089EBC9 /* ViewFrameAccessor.m in Sources */,
 			);
