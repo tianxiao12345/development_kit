@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (0.6.2)
+  - MJRefresh (2.4.10)
+
+DEPENDENCIES:
+  - Masonry
+  - MJRefresh (~> 2.4.10)
+
+SPEC CHECKSUMS:
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  MJRefresh: e52328552ed9cbfce3501e3820b18bf7643c65cc
+
+COCOAPODS: 0.38.2

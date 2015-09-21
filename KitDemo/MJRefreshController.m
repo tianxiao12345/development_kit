@@ -24,15 +24,15 @@
 #pragma mark mjrefresh 交互事件
 -(void)setupRefresh{
     //头
-    [self.tableView addLegendHeaderWithRefreshingBlock:^{
+    [self.tableView setHeader:[MJRefreshNormalHeader headerWithRefreshingBlock:^{
         
-    }];
-    
+    }]];
     
     //尾
-    [self.tableView addLegendFooterWithRefreshingBlock:^{
+    [self.tableView setFooter:[MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{
         
-    }];
+    }]];
+    
     [self.tableView.header beginRefreshing];
     
     /**
